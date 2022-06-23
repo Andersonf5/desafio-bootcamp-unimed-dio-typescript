@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dist/app.js" defer></script>
+   
+</head>
+<body>
+    <div style="border: 1px solid black; width: 100%; height: 280px;">
+        <h1 style="display: flex; justify-content: center;">Desafio 3</h1>
+        <hr>
+        <h3 style="margin-left: 10px">Valor a ser adicionado: <input id="soma"> </h3>
+        <button id="atualizar-saldo" style="margin-left: 180px">Atualizar saldo</button>
+        <button id="limpar-saldo">Limpar seu saldo</button>
+        <h1 style="margin-left: 160px">"Seu saldo é: R$ <span id="campo-saldo"></span></h1>
+    </div>
+    <div style="border: 1px solid black; width: 100%; height: 350px;">
+        <h1 style="display: flex; justify-content: center;">Desafio 2</h1>
+        <hr>
+        
+        <xmp>
+            
+enum Trabalho {Atriz, Padeiro}
+
+type Humano = {nome: string, idade: number, profissao: Trabalho }
+
+let pessoa1: Humano = { nome: 'maria', idade: 29, profissao: Trabalho.Atriz};
+
+let pessoa2: Humano = { nome: 'roberto', idade: 19, profissao: Trabalho.Padeiro};
+
+let pessoa3: Humano = { nome: 'laura', idade: 32, profissao: Trabalho.Atriz};
+
+let pessoa4: Humano = { nome: "carlos",idade: 19, profissao: Trabalho.Padeiro
+}
+        </xmp>
+    </div>
+    <div style="border: 1px solid black; width: 100%; height: 350px;">
+        <h1 style="display: flex; justify-content: center;">Desafio 1</h1>
+        <hr>
+        <h3>Resposta 1</h3>
+        <xmp>
+            
+interface Employee{ code:number, name:string}
+ 
+let employee:Employee = { code:10, name:'João'}
+
+       </xmp>
+       <h3>Resposta 2</h3>
+       <xmp>           
+        let employee1 = { code: 10, name:"John"};
+      </xmp>
+      
+
+
+
+    </div>
+      
+</body>
+</html>
